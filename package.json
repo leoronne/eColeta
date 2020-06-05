@@ -1,0 +1,15 @@
+{
+  "name": "eColeta",
+  "version": "1.0.0",
+  "author": "Leonardo Ronne",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "postinstall": "npm install --prefix server && npm install --prefix interface",
+    "installapp": "cd ./server/ && npm install && cd ./interface && npm install",
+    "startinterface": "cd ./interface/ && npm start",
+    "installinterface": "cd ./interface/ && npm install",
+    "installserver": "cd ./server/ && npm install",
+    "startserver": "cd ./server/ && yarn dev"
+  }
+}
