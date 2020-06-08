@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./logo512.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#34cb79" />
+    <meta name="description" content="Register waste collection points in your location" />
+    <meta name="author" content="Leonardo Ronne" />
+    <meta name="keywords" content="eColeta, Next Level Weel, NLW, OmniStack, Rocketseat, Leonardo Ronne, Diego Fernandes, Reactjs, Nodejs" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <!-- <link rel="shortcut icon" href=”./favicon.ico”> -->
+    <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/eecoleta.appspot.com/o/favicon.ico?alt=media" />
+    <title>eColeta</title>
+  </head>
+  <body>
+    <script>
+      !(function () {
+        function t(t) {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+        function e() {
+          var t = null;
+          try {
+            t = localStorage.getItem('theme');
+          } catch (t) {}
+          return t;
+        }
+        var n = window.matchMedia('(prefers-color-scheme: dark)');
+        n.addListener(function (n) {
+          null === e() && t(n.matches ? 'dark' : '');
+        });
+        var a = e();
+        null !== a ? t(a) : n.matches && t('');
+      })();
+    </script>
+    <div id="root"></div>
+  </body>
+</html>

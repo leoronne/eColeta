@@ -1,0 +1,315 @@
+/* NavBar */
+@import url('../../assets/styles/variables.css');
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Navigation Bar */
+
+/* <nav> */
+.navbar {
+  display: flex;
+  height: var(--nav-size);
+  /* background-color: var(--ifm-bg); */
+  padding: 0 1rem;
+  position: relative;
+  /* box-shadow: var(--box-shadow); */
+  /* -webkit-box-shadow: var(--box-shadow); */
+}
+
+/* <ul> */
+.navbar-start {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.navbar-start .navbar-logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 15px;
+}
+
+.navbar-start span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav-logo img {
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  right: 0;
+  position: absolute;
+  margin-right: 20px;
+}
+
+.navbar-nav li+li{
+  margin-left: 10px;
+}
+
+.nav-item {
+  width: calc(var(--nav-size) * 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-profile {
+  width: calc(var(--nav-size) * 2.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-profile span {
+  margin-left: 10px;
+}
+
+.icon-profile {
+  width: calc(var(--nav-size) * 2.4);
+  color: var(--text-color);
+  height: 36px;
+  background-color: transparent;
+  border-radius: 18px;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 300ms;
+}
+
+.icon-profile:hover {
+  background-color: var(--ifm-nav-menu-hover);
+  color: var(--text-color);
+}
+
+.icon-profile-active {
+  width: calc(var(--nav-size) * 2.4);
+  color: var(--ifm-color-primary-light);
+  font-weight: 600;
+  height: 36px;
+  background-color: transparent;
+  border-radius: 18px;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ifm-nav-menu-hover);
+  transition: filter 300ms;
+}
+
+.icon-profile-active:hover {
+  filter: brightness(1.2);
+}
+
+.icon-profile svg {
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px;
+}
+
+.avatar-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Icon Button */
+.icon-button {
+  --button-size: calc(var(--nav-size) * 0.6);
+  width: var(--button-size);
+  height: var(--button-size);
+  /* background-color: var(--buton-bg); */
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 300ms;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  filter: brightness(1.1);
+}
+
+.icon-avatar {
+  --button-size: calc(var(--nav-size) * 0.6);
+  width: var(--button-size);
+  height: var(--button-size);
+  border-radius: 50%;
+  margin: 2px 10px 2px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 300ms;
+}
+
+.icon-avatar:hover {
+  filter: brightness(1.2);
+}
+
+.icon-right svg,
+.icon-button svg {
+  fill: var(--ifm-color-primary-dark);
+  width: 25px;
+  height: 25px;
+}
+
+.arrow {
+  fill: var(--ifm-color-primary-dark);
+  width: 25px;
+  height: 25px;
+}
+
+.icon-button-color svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--ifm-color-primary);
+}
+
+/* Dropdown Menu */
+.dropdown {
+  z-index: 200;
+  position: absolute;
+  top: 58px;
+  width: 300px;
+  transform: translateX(-45%);
+  background-color: var(--ifm-bg);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  overflow: hidden;
+  transition: height var(--speed) ease;
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-item {
+  color: var(--text-color);
+  text-decoration: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu-item h2 {
+  font-size: 23px;
+  margin-bottom: 0 !important;
+}
+
+.menu-item .icon-button {
+  margin-right: 0.5rem;
+}
+
+.menu-item .icon-button:hover {
+  filter: none;
+}
+
+.menu-item:hover {
+  background-color: var(--ifm-nav-menu-hover);
+  color: var(--text-color);
+  filter: brightness(1) !important;
+}
+
+.icon-right {
+  margin-left: auto;
+}
+
+.menu a + a {
+  margin-top: 5px;
+}
+
+.menu span + a {
+  margin-top: 5px;
+}
+
+.menu a + span {
+  margin-top: 5px;
+}
+
+.menu span + span {
+  margin-top: 5px;
+}
+
+/* CSSTransition classes  */
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+  box-sizing: border-box;
+  padding: 1rem;
+  top: 0;
+  left: 0;
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease-in;
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all var(--speed) ease;
+}
+
+.menu-secondary-enter {
+  transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all var(--speed) ease;
+}
+
+.menu-terciary-enter {
+  transform: translateX(1500%);
+}
+.menu-terciary-enter-active {
+  transform: translateX(0%);
+  transition: var(--speed) ease-out;
+}
+
+.menu-terciary-exit-active {
+  transform: translateX(110%);
+  transition: all var(--speed) ease;
+}
+
+.drop-active {
+  background-color: var(--ifm-nav-menu-hover);
+  color: var(--ifm-color-primary-dark);
+  font-weight: 600;
+}

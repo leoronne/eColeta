@@ -1,0 +1,46 @@
+#page-home {
+  height: calc(100vh - 60px);
+  background: url('../../assets/img/home-background.svg') no-repeat;
+  background-position: bottom right;
+}
+
+#page-home .content {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#page-home .content .logo {
+  max-width: 220px;
+}
+
+@media (max-width: 1320px) {
+  #page-home {
+    background-size: 60%;
+  }
+}
+
+@media (max-width: 907px) {
+  #page-home {
+    background-size: 40%;
+  }
+}
+
+@media (max-width: 722px) {
+  #page-home {
+    background-size: 45%;
+    height: 110vh;
+  }
+}
+
+@media (max-width: 440px) {
+  #page-home {
+    height: 115vh;
+  }
+}

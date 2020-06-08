@@ -1,0 +1,86 @@
+{
+  "name": "eColeta",
+  "version": "1.0.0",
+  "description": "eColeta",
+  "repository": "https://github.com/leoronne/eColeta",
+  "author": "Leonardo Ronne",
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/google-libphonenumber": "^7.4.18",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "axios": "^0.19.2",
+    "i18next": "^19.4.5",
+    "i18next-xhr-backend": "^3.2.2",
+    "libphonenumber-js": "^1.7.52",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-geocode": "^0.2.1",
+    "react-google-maps": "^9.4.5",
+    "react-i18next": "^11.5.0",
+    "react-icons": "^3.9.0",
+    "react-image-crop": "^8.6.4",
+    "react-phone-number-input": "^3.0.23",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-spinners": "^0.8.3",
+    "react-toastify": "^6.0.5",
+    "react-transition-group": "^4.4.1",
+    "reactstrap": "^8.4.1",
+    "recompose": "^0.30.0",
+    "typescript": "~3.7.2",
+    "yup": "^0.28.5"
+  },
+  "scripts": {
+    "start": "set HTTPS=true && react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-geocode": "^0.2.0",
+    "@types/react-image-crop": "^8.1.2",
+    "@types/react-leaflet": "^2.5.1",
+    "@types/react-phone-number-input": "^3.0.4",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-transition-group": "^4.4.0",
+    "@types/reactstrap": "^8.4.2",
+    "@types/recompose": "^0.30.7",
+    "@types/yup": "^0.29.2",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-root-import": "^6.4.1",
+    "customize-cra": "^0.9.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import-helpers": "^1.0.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "react-app-rewired": "^2.1.6"
+  }
+}

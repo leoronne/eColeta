@@ -8,8 +8,8 @@ module.exports = {
       whatsapp: Joi.string().required().error(new Error('Whats App is a required field!!')),
       latitude: Joi.number().required().error(new Error('Latitude is a required field!')),
       longitude: Joi.number().required().error(new Error('Longitude is a required field!')),
-      uf: Joi.string().required().length(2).error(new Error('Invalid UF!')),
-      city: Joi.string().required().error(new Error('City is a required field!')),
+      address: Joi.string().required().error(new Error('address is a required field!')),
+      compound: Joi.string().required().error(new Error('Compound is a required field!')),
       items: Joi.array().items(Joi.number().integer().required()).required().error(new Error('Invalid items!')),
     }),
   },
@@ -20,8 +20,8 @@ module.exports = {
   },
   index: {
     [Segments.QUERY]: Joi.object().keys({
-      uf: Joi.string().allow(null).length(2).error(new Error('Invalid UF!')),
-      city: Joi.string().allow(null).error(new Error('Invalid City!')),
+      address: Joi.string().allow(null).error(new Error('Invalid address!')),
+      compound: Joi.string().allow(null).error(new Error('Invalid Compound!')),
       items: Joi.string().allow(null).error(new Error('Invalid Items')),
     }),
   },

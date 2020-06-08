@@ -26,4 +26,7 @@ firebase.json
 
 *.psd
 
+uploads
+!uploads/*.svg
+
 test.html
