@@ -3,6 +3,10 @@ import knex from '../../database/connection';
 
 require('dotenv/config');
 
+interface MulterRequest extends Request {
+  file: any;
+}
+
 class PointController {
   async index(req: Request, res: Response) {
     try {
@@ -128,7 +132,7 @@ class PointController {
   async uploadPhoto(req: Request, res: Response) {
     try {
       const { id } = req.params;
-      const { originalname: name, size, key, location: url = '' } = req.file;
+      const { originalname: name, size, key, location: url = '' } = (req as MulterRequest).file;
 
       const point = await knex('points').where('id', id).first();
 
