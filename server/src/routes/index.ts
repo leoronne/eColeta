@@ -6,7 +6,7 @@ import knex from '../database/connection';
 
 import ItemsController from '../app/controllers/ItemController';
 import PointController from '../app/controllers/PointController';
-const PointValidator = require('../validators/pointValidator');
+const PointValidator = require('../validators/PointValidator');
 
 const multerConfig = require('../config/multer');
 
