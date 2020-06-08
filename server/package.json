@@ -38,7 +38,8 @@
     "sqlite3": "^4.2.0",
     "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "node": "^12.16.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
