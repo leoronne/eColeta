@@ -10,5 +10,8 @@
     "installinterface": "cd ./interface/ && npm install",
     "installserver": "cd ./server/ && npm install",
     "startserver": "cd ./server/ && yarn dev"
+  },
+  "devDependencies": {
+    "node": "^12.16.2"
   }
 }
