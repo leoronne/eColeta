@@ -13,12 +13,25 @@ const multerConfig = require('../config/multer');
 const routes = express.Router();
 const upload = multer(multerConfig);
 
-
 const pointController = new PointController();
 
 const itemsController = new ItemsController();
 
+const Development = [
+  'eColeta - NLW #1',
+  {
+    'Made by': 'Leonardo Ronne',
+    GitHub: 'https://github.com/leoronne',
+  },
+];
+
 routes
+  //Copyright
+  .get('/', (req, res, next) => {
+    res.status(200).send({
+      Development,
+    });
+  })
   //Points
   .post('/points', celebrate(PointValidator.create), pointController.store)
   .post('/pointsimage/:id', upload.single('image'), pointController.uploadPhoto)
