@@ -7,7 +7,6 @@ class PointController {
   async index(req: Request, res: Response) {
     try {
       const { compound, address, items } = req.query;
-console.log(compound, address, items )
       const parsedItems = items
         ? String(items)
             .split(',')
@@ -130,8 +129,6 @@ console.log(compound, address, items )
     try {
       const { id } = req.params;
       const { originalname: name, size, key, location: url = '' } = req.file;
-
-      console.log(req.file)
 
       const point = await knex('points').where('id', id).first();
 

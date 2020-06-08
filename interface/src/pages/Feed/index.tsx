@@ -62,8 +62,6 @@ const Feed: React.FC<FeedProps> = (props) => {
       const compoundWhere = compound ? encodeURI(compound) : '';
       const itemsWhere = items ? encodeURI(items.toString()) : '';
 
-      console.log(itemsWhere);
-
       let query = [];
 
       if (addressWhere) query.push(`address=${addressWhere}`);
@@ -75,8 +73,6 @@ const Feed: React.FC<FeedProps> = (props) => {
       if (query.length > 0) {
         link = `${link}?${query.join('&')}`;
       }
-      console.log(link);
-
       const response = await api.get(link);
       const { data } = response;
       setPoints(data);
