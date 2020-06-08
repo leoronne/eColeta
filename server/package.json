@@ -53,5 +53,8 @@
     "nodemon": "^2.0.2",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "engines": {
+    "node": "12.16.2"
   }
 }
