@@ -1,0 +1,5 @@
+//Backend URL
+REACT_APP_API_URL=
+
+//Google API Key for Maps integration
+REACT_APP_GOOGLE_API_KEY=

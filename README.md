@@ -56,7 +56,7 @@ To start the application server on your local machine, from the root folder, jus
 yarn startserver
 ```
 
-<strong>Note: you need to create a .env file on the server directory based on the [example file](https://github.com/leoronne/eColeta/blob/master/server/example.env).
+<strong>Note: you need to create a .env file on the server directory based on the [example file](https://github.com/leoronne/eColeta/blob/master/server/.env%20(example).txt).
 
 <br>
 
@@ -70,7 +70,7 @@ yarn startinterface
 <br>
 
 
-<strong>Note: you need to create a .env file on the interface directory based on the [example file](https://github.com/leoronne/eColeta/blob/master/interface/example.env).
+<strong>Note: you need to create a .env file on the interface directory based on the [example file](ttps://github.com/leoronne/eColeta/blob/master/interface/.env%20(example).txt).
 
 
 <br>
