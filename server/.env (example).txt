@@ -1,20 +1,41 @@
 //Application name
-APP_NAME=
+APP_NAME=eColeta
 
-//Web URL of the application
-APP_URL=
+//Database ambient (prod/dev/test)
+DBAMBIENT=development
 
-//Authentication crypto for JWT token
-AUTH=
+//Host of the Database (if it is local or clod, aws etc)
+DB_HOST=
 
-//Mongo's collection URL
-MONGO_URL=
+//Database name
+DB_DATABASE=
 
-//Gmail user (optional)
-GMAIL_USER=
+//Database user
+DB_USER=
 
-//SendGrid user (for emails)
+//Database password
+DB_PASSWORD=
+
+//Application mail
+APP_MAIL=
+
+//Application email service user (it's using sendgrid)
 MAIL_USER=
 
-//SendGrid password
+//Application email service password
 MAIL_PASS=
+
+//Type of storage of pictures
+STORAGE_TYPE=local
+
+//Bucket of the picture storage (AWS)
+BUCKET_NAME=
+
+//AWS access key ID
+AWS_ACCESS_KEY_ID=
+
+//AWS secret access key
+AWS_SECRET_ACCESS_KEY=
+
+//AWS default region
+AWS_DEFAULT_REGION=
