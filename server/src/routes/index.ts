@@ -6,7 +6,9 @@ import knex from '../database/connection';
 
 import ItemsController from '../app/controllers/ItemController';
 import PointController from '../app/controllers/PointController';
+import ContactController from '../app/controllers/ContactController';
 const PointValidator = require('../validators/PointValidator');
+const ContactValidator = require('../validators/ContactValidator');
 
 const multerConfig = require('../config/multer');
 
@@ -14,6 +16,8 @@ const routes = express.Router();
 const upload = multer(multerConfig);
 
 const pointController = new PointController();
+
+const contactController = new ContactController();
 
 const itemsController = new ItemsController();
 
@@ -32,6 +36,8 @@ routes
       Development,
     });
   })
+  //Contact
+  .post('/contact', celebrate(ContactValidator.send), contactController.send)
   //Points
   .post('/points', celebrate(PointValidator.create), pointController.store)
   .post('/pointsimage/:id', upload.single('image'), pointController.uploadPhoto)

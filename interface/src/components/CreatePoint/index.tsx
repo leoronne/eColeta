@@ -1,10 +1,8 @@
-import React, { useState, useContext, useEffect, ChangeEvent } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useContext, useEffect } from 'react';
 import { FaPlus, FaTrash } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import { Modal } from 'react-bootstrap';
 import PhoneInput, { isValidPhoneNumber } from 'react-phone-number-input';
-import axios from 'axios';
 import Geocode from 'react-geocode';
 import * as Yup from 'yup';
 
@@ -113,6 +111,7 @@ const CreatePoint: React.FC<CreatePointProps> = (props) => {
       await setCords();
     }
     loadCords();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {

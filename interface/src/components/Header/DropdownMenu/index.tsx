@@ -7,18 +7,14 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 // import ThemeToggle from './ThemeToggle';
 
+import Contact from '../../Contact';
 import { Context } from '../../../Context/LanguageContext';
-import history from '../../../services/history';
 
 import { ReactComponent as ChevronIcon } from '~/assets/icons/chevron.svg';
 import { ReactComponent as BrazilIcon } from '~/assets/icons/brazil.svg';
 import { ReactComponent as USAIcon } from '~/assets/icons/usa.svg';
 import { ReactComponent as AboutIcon } from '~/assets/icons/about.svg';
-import { ReactComponent as GearIcon } from '~/assets/icons/gear.svg';
-import { ReactComponent as MessengerIcon } from '~/assets/icons/messenger.svg';
 import { ReactComponent as QuestionIcon } from '~/assets/icons/question.svg';
-import { ReactComponent as MoonIcon } from '~/assets/icons/moon.svg';
-import { ReactComponent as MailIcon } from '~/assets/icons/mail.svg';
 
 const DropdownMenu: React.FC = (props) => {
   const { language, LanguageChange } = useContext(Context);
@@ -26,10 +22,10 @@ const DropdownMenu: React.FC = (props) => {
   const [activeMenu, setActiveMenu] = useState('main');
   const [menuHeight, setMenuHeight] = useState(0);
   const dropdownRef = useRef(null);
-  const currentUrl = String(window.location.href.split(window.location.origin).pop()).split('#').shift();
+  // const currentUrl = String(window.location.href.split(window.location.origin).pop()).split('#').shift();
 
   useEffect(() => {
-    const w = window.innerWidth;
+    // const w = window.innerWidth;
     setMenuHeight(
       //     w > 500 ?
       145
@@ -102,9 +98,7 @@ const DropdownMenu: React.FC = (props) => {
           <DropdownItem goToMenu="main" leftIcon={<FaArrowLeft />} path="#" rightIcon="">
             <h2> {t('help')}</h2>
           </DropdownItem>
-          <DropdownLink leftIcon={<MessengerIcon />} path="/contact" rightIcon="" goToMenu={undefined}>
-            {t('contact')}
-          </DropdownLink>
+          <Contact />
           <DropdownLink leftIcon={<AboutIcon />} path="/about" rightIcon="" goToMenu={undefined}>
             {t('about')}
           </DropdownLink>

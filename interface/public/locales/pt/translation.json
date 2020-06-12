@@ -48,6 +48,8 @@
       "imageerr": "É necessário fazer o upload de uma foto",
       "imageinvalid": "Imagem inválida",
       "whatsmsg": "Olá, estou entrando em contato a respeito do Ponto de Coleta cadastrado em seu endereço",
-      "filters": "Filtros"
-
+      "filters": "Filtros",
+      "messagename": "Nome",
+      "messagetext": "Mensagem",
+      "messagerequired": "Você deve escrever uma mensagem primeiro"
 }

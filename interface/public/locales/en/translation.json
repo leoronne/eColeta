@@ -48,5 +48,8 @@
       "imageerr": "Image is a required field",
       "imageinvalid": "Invalid image",
       "whatsmsg": "Hello, I'm contacting you about the Waste Collection Point registered at your address",
-      "filters": "Filters"
+      "filters": "Filters",
+      "messagename": "Name",
+      "messagetext": "Message",
+      "messagerequired": "You should write a message first"
 }

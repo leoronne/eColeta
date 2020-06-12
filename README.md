@@ -70,7 +70,7 @@ yarn startinterface
 <br>
 
 
-<strong>Note: you need to create a .env file on the interface directory based on the [example file](ttps://github.com/leoronne/eColeta/blob/master/interface/.env%20(example).txt).
+<strong>Note: you need to create a .env file on the interface directory based on the [example file](https://github.com/leoronne/eColeta/blob/master/interface/.env%20(example).txt).
 
 
 <br>
