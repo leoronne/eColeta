@@ -54,5 +54,6 @@
       "messagerequired": "You should write a message first",
       "send": "Send",
       "messagesent": "Your message was sent to our team, we'll contact you soon. Thank you!",
-      "about": "About"
+      "abouttext1": "eColeta is a Web and Mobile application built to help people find collection points for waste recycling. It's a project part of the Rocketseat's #1 Next Level Week.",
+      "abouttext2": "The idea of ​​creating an application focused on the environment came from the coincidence of the course date and the date of the 2020's Environment Week."
 }

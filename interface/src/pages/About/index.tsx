@@ -19,10 +19,10 @@ const About: React.FC<AboutProps> = (props) => {
         <img src={logo} alt="eColeta" />
       </p>
       <p>
-        eColeta is a Web and Mobile application built to help people find collection points for waste recycling. It's a project part of the Rocketseat's #1 Next Level Week.
+        {t('abouttext1')}
         <br />
         <br />
-        The idea of ​​creating an application focused on the environment came from the coincidence of the course date and the date of the 2020's Environment Week.
+        {t('abouttext2')}
       </p>
     </main>
   );

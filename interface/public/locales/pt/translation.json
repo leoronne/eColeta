@@ -54,5 +54,6 @@
       "messagerequired": "Você deve escrever uma mensagem primeiro",
       "send": "Enviar",
       "messagesent": "Sua mensagem foi enviada para nossa equipe, entraremos em contato em breve. Obrigado!",
-      "about": "Sobre"
+      "abouttext1": "O eColeta é um aplicativo Web e Mobile criado para ajudar as pessoas a encontrarem pontos de coleta para reciclagem de resíduos. Faz parte do projeto da #1 Next Level Week da Rocketseat.",
+      "abouttext2": "A idéia de criar um aplicativo focado no meio ambiente surgiu da coincidência da data do curso e da data da Semana do Meio Ambiente de 2020."
 }

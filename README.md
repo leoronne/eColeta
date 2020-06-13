@@ -71,8 +71,6 @@ To start the application interface (frontend), from the root folder, just run:
 yarn startinterface
 ```
 
-<br>
-
 <strong>Note: you need to create a .env file on the interface directory based on the [example file](<https://github.com/leoronne/eColeta/blob/master/interface/.env%20(example).txt>).
 
 <br>

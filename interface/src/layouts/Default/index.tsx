@@ -13,10 +13,10 @@ interface DefaultLayoutProps {
 }
 
 const DefaultLayout: React.FC<DefaultLayoutProps> = (props) => {
-  // const http = require("http");
-  // setInterval(function() {
-  //     http.get(process.env.REACT_APP_API_URL);
-  // }, 15000); 
+  const http = require('http');
+  setInterval(function () {
+    http.get(process.env.REACT_APP_API_URL);
+  }, 120000);
   return (
     <>
       <Header title="eColeta" logo={logo} homelink="/" />
