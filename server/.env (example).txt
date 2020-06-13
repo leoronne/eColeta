@@ -16,7 +16,7 @@ DB_USER=
 //Database password
 DB_PASSWORD=
 
-//Application mail
+//Application mail (the one that will receive the emails as bcc)
 APP_MAIL=
 
 //Application email service user (it's using sendgrid)

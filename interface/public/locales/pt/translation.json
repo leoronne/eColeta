@@ -51,5 +51,8 @@
       "filters": "Filtros",
       "messagename": "Nome",
       "messagetext": "Mensagem",
-      "messagerequired": "Você deve escrever uma mensagem primeiro"
+      "messagerequired": "Você deve escrever uma mensagem primeiro",
+      "send": "Enviar",
+      "messagesent": "Sua mensagem foi enviada para nossa equipe, entraremos em contato em breve. Obrigado!",
+      "about": "Sobre"
 }

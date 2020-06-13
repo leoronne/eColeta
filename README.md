@@ -2,15 +2,20 @@
   <img src="interface/src/assets/img/Logo-horizontal.png" width="500px"/>
 </p>
 
-# 
+#
 
 <p align="center">
-  <img src="/assets/img/banneBTH.png"/>
+  <img src="/assets/img/banner.png"/>
 </p>
 
 <br>
 
 <p align="center">
+  <br>
+
+  <a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fleoronne%2Fecoleta%2Fmaster%2F.github%2FInsomnia_2020-06-05.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <br>
+  <br>
   <a href="#project-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs-rocket">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#installation-wrench">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -22,11 +27,11 @@
 
 <br>
 
-## Project 💻
+## Project ♻️
 
-**eColeta** is a waste collection point marketplace, it helps people finding waste collection points efficiently.
+**eColeta** is a Web and Mobile application built to help people find collection points for waste recycling. It's a project part of the [Rocketseat](https://github.com/Rocketseat)'s #1 Next Level Week.
 
-It was a project made on [Rocketseat](https://github.com/Rocketseat)'s #1 Next Level Week, with a few changes.
+The idea of ​​creating an application focused on the environment came from the coincidence of the course date and the date of the 2020's Environment Week.
 
 <br>
 
@@ -34,6 +39,7 @@ It was a project made on [Rocketseat](https://github.com/Rocketseat)'s #1 Next L
 
 - [Node.js](https://nodejs.org/en/);
 - [ReactJS](https://reactjs.org);
+- [TypeScript](https://www.typescriptlang.org/);
 - [React Native](https://facebook.github.io/react-native/) - <i>to do</i>.
 
 <br>
@@ -56,10 +62,9 @@ To start the application server on your local machine, from the root folder, jus
 yarn startserver
 ```
 
-<strong>Note: you need to create a .env file on the server directory based on the [example file](https://github.com/leoronne/eColeta/blob/master/server/.env%20(example).txt).
+<strong>Note: you need to create a .env file on the server directory based on the [example file](<https://github.com/leoronne/eColeta/blob/master/server/.env%20(example).txt>).
 
 <br>
-
 
 To start the application interface (frontend), from the root folder, just run:
 
@@ -69,13 +74,13 @@ yarn startinterface
 
 <br>
 
-
-<strong>Note: you need to create a .env file on the interface directory based on the [example file](https://github.com/leoronne/eColeta/blob/master/interface/.env%20(example).txt).
-
+<strong>Note: you need to create a .env file on the interface directory based on the [example file](<https://github.com/leoronne/eColeta/blob/master/interface/.env%20(example).txt>).
 
 <br>
 
 <i>Each directory has a readme for more instructions.</i>
+
+<br>
 
 ## To do :newspaper:
 
@@ -83,7 +88,7 @@ yarn startinterface
 
 <br>
 
-## Contributing 🤔 
+## Contributing 🤔
 
 Please read [CONTRIBUTING](https://github.com/leoronne/eColeta/blob/master/CONTRIBUTING.md) for details on code of conduct, and the process for submitting pull requests to the project.
 
@@ -92,9 +97,8 @@ Please read [CONTRIBUTING](https://github.com/leoronne/eColeta/blob/master/CONTR
 ## License :memo:
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
 - **[MIT license](https://github.com/leoronne/eColeta/blob/master/LICENSE)**
 - Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Leonardo Ronne</a>.
 
-## 
-
-
+##

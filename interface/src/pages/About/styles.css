@@ -1,0 +1,88 @@
+@import url('../../assets/styles/variables.css');
+
+.cardfull {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0;
+  background: var(--ifm-card-background);
+  border-radius: 8px;
+  padding: 30px;
+  position: relative;
+}
+
+.cardfull h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 54px;
+  color: var(--title-color);
+}
+
+.cardfull p {
+  font-size: 24px;
+  margin-top: 24px;
+  line-height: 38px;
+}
+
+.cardfull a {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.cardfull a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.cardfull a span svg {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.cardfull a strong {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.cardfull a:hover {
+  background: #2fb86e;
+}
+
+.cardfull img {
+  max-width: 280px;
+}
+
+@media (max-width: 900px) {
+  .cardfull {
+    align-items: center;
+    text-align: center;
+  }
+
+  .cardfull h1 {
+    font-size: 42px;
+  }
+
+  .cardfull p {
+    font-size: 24px;
+  }
+}

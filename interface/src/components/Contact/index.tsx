@@ -40,7 +40,7 @@ const Contact: React.FC = (props) => {
 
         await api.post('/contact', body);
 
-        notify('Mensagem enviada, obrigado', 'success', 'top-center');
+        notify(t('messagesent'), 'success', 'top-center');
       } catch (err) {
         notify(err.response === undefined ? err.message : err.response.data.message ? err.response.data.message : err.response.data, 'error', 'top-center');
       } finally {
@@ -73,7 +73,7 @@ const Contact: React.FC = (props) => {
         </Modal.Body>
         <Modal.Footer>
           <div className="footer-buttons">
-            <ButtonLoader height={35} size={20} color="#8d949e" func={() => send()} loading={loading} defaultText={t('save')} />
+            <ButtonLoader height={35} size={20} color="#8d949e" func={() => send()} loading={loading} defaultText={t('send')} />
           </div>
         </Modal.Footer>
       </Modal>

@@ -51,5 +51,8 @@
       "filters": "Filters",
       "messagename": "Name",
       "messagetext": "Message",
-      "messagerequired": "You should write a message first"
+      "messagerequired": "You should write a message first",
+      "send": "Send",
+      "messagesent": "Your message was sent to our team, we'll contact you soon. Thank you!",
+      "about": "About"
 }
