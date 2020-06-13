@@ -11,23 +11,22 @@
 <br>
 
 <p align="center">
-  <br>
-
-  <a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fleoronne%2Fecoleta%2Fmaster%2F.github%2FInsomnia_2020-06-05.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-  <br>
-  <br>
-  <a href="#project-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project-recycle">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs-rocket">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#installation-wrench">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#test-heavy_check_mark">Test</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#to-do-newspaper">To Do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contributing-">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license-memo">License</a>
+  <br>  
+  <br>  
+  <br>
+  <a href="https://insomnia.rest/run/?label=eColeta&uri=https%3A%2F%2Fgithub.com%2Fleoronne%2FeColeta%2Fblob%2Fmaster%2Fserver%2Fecoleta-insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 <br>
 
-## Project ♻️
+## Project :recycle:
 
 **eColeta** is a Web and Mobile application built to help people find collection points for waste recycling. It's a project part of the [Rocketseat](https://github.com/Rocketseat)'s #1 Next Level Week.
 
