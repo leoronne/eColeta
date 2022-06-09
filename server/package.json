@@ -33,7 +33,7 @@
     "nodemailer-express-handlebars": "^3.1.0",
     "path": "^0.12.7",
     "pg": "^8.2.1",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "sqlite3": "^4.2.0",
     "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4",
